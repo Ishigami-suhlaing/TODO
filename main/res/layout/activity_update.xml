@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddTODO">
+    tools:context=".UpdateActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/sansation_regular"
-        android:text="Add Todo"
+        android:text="Update Todo"
         android:textSize="22sp"
 
         app:layout_constraintBottom_toBottomOf="@+id/btnBack"
@@ -158,14 +158,14 @@
         app:srcCompat="@drawable/baseline_access_time_24" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fb_save"
+        android:id="@+id/fb_update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:clickable="true"
         android:backgroundTint="#FFF0F0"
-        android:contentDescription="Save"
+        android:clickable="true"
+        android:contentDescription="Update"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/baseline_check_24" />

@@ -21,13 +21,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_todo"
-        android:layout_width="396dp"
-        android:layout_height="676dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="348dp"
+        android:layout_height="678dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TextView7" />
 
@@ -38,6 +38,7 @@
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="56dp"
         android:clickable="true"
+        android:backgroundTint="#FFF0F0"
         android:contentDescription="Add new item"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
